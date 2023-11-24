@@ -36,8 +36,6 @@ class PasswordValidator
 // Display validation result
 echo $isValid ? "The password you typed '{$password}' is valid!" : "The password you typed '{$password}' is not valid";
 
-// If you want, you can provide additional feedback without revealing specifics
-//echo $isValid ? 'Password is valid!' : 'Password does not meet the criteria.';
 
 return $isValid;
 }
